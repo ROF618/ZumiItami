@@ -48,10 +48,12 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+/*Variables*/
+$border: 1px solid black;
 
 
 .row {
-	border: 1px solid black;
+
 }
 
 .orbit-image {
@@ -64,7 +66,7 @@
 }
 
 body {
-	background-color: grey;
+	background-color: #FFFBFB;
 }
 
 /*Animation*/
